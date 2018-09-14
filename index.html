@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <title>Done nuts</title>
+</head>
+
+<body>
+
+    <header class="container-fluid">
+        <div class="container-fluid">
+
+            <div class="headerMenus">
+                <!-- line 1 grid-menus-anaelle-kevin-->
+                <div class="row justify-content-center">
+                    <div onmouseover='playpause()' onmouseout='playpause()' class="anaelleMenus"><a href="page-perso/persoanaele.html"><audio
+                                id="v1" autobuffer="true">
+                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="anaelleHeader"
+                                src="header-accueil/anaelle1.png" alt=""></a></div>
+                    <div onmouseover='playpause()' onmouseout='playpause()' class="kevinMenus"><a href="page-perso/persokevin.html"><audio
+                                id="v1" autobuffer="true">
+                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="kevinHeader"
+                                src="header-accueil/kevin.png" alt=""></a></div>
+                </div>
+                <!-- line 2 grid-menus-elliot-morgan-->
+                <div class="row justify-content-center">
+                    <div onmouseover='playpause()' onmouseout='playpause()' class="elliotMenus"><a href="page-perso/persoeliott.html"><audio
+                                id="v1" autobuffer="true">
+                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="elliotHeader"
+                                src="header-accueil/elliot.png" alt=""></a></div>
+                    <div onmouseover='playpause()' onmouseout='playpause()' class="morganMenus"><a href="page-perso/persomorgan.html"><audio
+                                id="v1" autobuffer="true">
+                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="morganHeader"
+                                src="header-accueil/morgan.png" alt=""></a></div>
+                </div>
+                <!-- line 3 grid-menus-logo-ysatis-florent -->
+                <div class="row justify-content-center">
+                    <div onmouseover='playpause()' onmouseout='playpause()' class="ysatisMenus"><a href="page-perso/persoysatis.html"><audio
+                                id="v1" autobuffer="true">
+                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="ysatisHeader"
+                                src="header-accueil/ysatis.png" alt=""></a></div>
+                    <div onmouseover='playpause()' onmouseout='playpause()' class="florentMenus"><a href="page-perso/persoflorent.html"><audio
+                                id="v1" autobuffer="true">
+                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="florentHeader"
+                                src="header-accueil/florent.png" alt=""></a></div>
+                </div>
+                <!-- line 4 grid-menus-logo -->
+                <div class="row justify-content-center">
+                    <div class="logoMenus"><a href="https://wildcodeschool.fr/lyon"><img class="logoHeader" src="header-accueil/wild.png"
+                                alt=""></a></div>
+                </div>
+            </div><!-- end div menus -->
+        </div><!-- end div container fluid -->
+        </div>
+    </header>
+
+
+    <!-- 1ère partie avec la présentation (titre + paragraphe)-->
+
+    <section>
+        <h2>Présentation du projet</h2>
+        <p class="presentation">Voici le portfolio du groupe 8 de la Wild Code School de Lyon ! Nous voulions aboutir à
+            quelque chose de relativement ambitieux (modulo nos compétences de débutants bien sûr !). Pour voir le
+            résultat de ce travail de 3 semaines, il s’agira de scroller, cliquer, passer la souris au-dessus des
+            élements… Et ceci, sur les différents supports/résolutions possibles !</p>
+    </section>
+
+    <!-- 2ème partie avec galerie photos (modaux)-->
+
+    <section class="galllery-wip">
+        <h2>Gallerie photos</h2>
+        <!----WORK IN PROGRESS------>
+        <!---Disposition images--->
+
+
+        <div class="container WIP-container">
+            <div class="workinprogress">
+                <div class='row'>
+                    <a data-toggle="modal" href="#mymodal1">
+                        <div class=" carre2 margedroite image1 d-none d-md-block"></div>
+                    </a>
+                </div>
+                <div class='row d-none d-sm-flex'>
+                    <a data-toggle="modal" href="#mymodal2">
+                        <div class=" carre image2"></div>
+                    </a>
+                    <a data-toggle="modal" href="#mymodal3">
+                        <div class="carre margegauche image3"></div>
+                    </a>
+                    <a data-toggle="modal" href="#mymodal4">
+                        <div class=" carrefin margegauchefin image4"></div>
+                    </a>
+                </div>
+                <div class='row  d-sm-none mb-3 '>
+                    <div class=" offset-2 col-2">
+                        <a data-toggle="modal" href="#mymodal1">
+                            <div class="carresm  imagesm1"></div>
+                        </a>
+                    </div>
+                    <div class="offset-2 col-2 ">
+                        <a data-toggle="modal" href="#mymodal2">
+                            <div class="carresm  imagesm2"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class='row  d-sm-none'>
+                    <div class="offset-2 col-2 ">
+                        <a data-toggle="modal" href="#mymodal3">
+                            <div class="carresm  imagesm3"></div>
+                        </a>
+                    </div>
+                    <div class="offset-2 col-2 ">
+                        <a data-toggle="modal" href="#mymodal4">
+                            <div class="carresm  imagesm4"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class='row'>
+                    <a data-toggle="modal" href="#mymodal5">
+                        <div class="carre2  d-none d-md-block margegauche3 image5"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!---Disposition images--->
+
+        <!-------------Modal image 1------------------------>
+        <div class="modal fade" id="mymodal1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <img class="w-100 " src="img1.jpg" alt="placeholder">
+                    <b>[Small Desc]</b></br>
+                    Small Desc
+                    <button type="button" class="close" id="enhaut" data-dismiss="modal">&times;</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-------------Modal image 2------------------------>
+        <div class="modal fade" id="mymodal2" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <img class="w-100" src="img1.jpg" alt="placeholder">
+                    <b>[Small Desc]</b></br>
+                    Small Desc
+                    <button type="button" class="close" id="enhaut" data-dismiss="modal">&times;</button>
+                </div>
+            </div>
+        </div>
+
+        <!-------------Modal image 3------------------------>
+        <div class="modal fade" id="mymodal3" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <img class="w-100" src="img1.jpg" alt="placeholder">
+                    [Small Desc]
+                    <button type="button" class="close" id="enhaut" data-dismiss="modal">&times;</button>
+                </div>
+            </div>
+        </div>
+
+        <!-------------Modal image 4------------------------>
+        <div class="modal fade" id="mymodal4" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <img class="w-100" src="img1.jpg" alt="placeholder">
+                    [<b>[Small Desc]</b></br>
+                    Small Desc
+                    <button type="button" class="close" id="enhaut" data-dismiss="modal">&times;</button>
+                </div>
+            </div>
+        </div>
+
+        <!-------------Modal image 5------------------------>
+        <div class="modal fade" id="mymodal5" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <img class="w-100 " src="img1.jpg" alt="placeholder">
+                    <b>[Small Desc]</b></br>
+                    Small Desc
+                    <button type="button" class="close" id="enhaut" data-dismiss="modal">&times;</button>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- 3ème partie : Le teasing de nos présentations (x6)-->
+
+    <section class="perso-section">
+        <h2>Ysatis Place</h2>
+        <div class="container">
+            <div class="row m-2">
+                <!--Image ronde visible uniquement de format XS-à MD -->
+                <div class="col d-lg-none d-block">
+                    <img class="rounded-circle img-perso-ronde img-plainpied" src="header-accueil/ysatis.png" alt="image rondes">
+                </div>
+                <div class="col-lg-4 description-list">
+                    <ul class="list-unstyled">
+                        <li class="media my-5">
+                            <img class="rounded-circle logo-presentation" src="icon/github-logo.svg" alt="Github logo">
+                            <div class="media-body">
+                                <h5 class="">Lien Github</h5>
+                            </div>
+                        </li>
+                        <li class="media mb-5">
+                            <img class="rounded-circle logo-presentation" src="icon/linkedin.svg" alt="linkedin logo">
+                            <div class="media-body">
+                                <h5 class="">Lien LinkedIn</h5>
+                            </div>
+                        </li>
+                        <li class="media mb-5">
+                            <img class="rounded-circle logo-presentation" src="icon/closed-envelope-circle.svg" alt="email logo">
+                            <div class="media-body">
+                                <h5 class="">place.ysatis@gmail.com</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--Image en plain pieds-->
+                <div class="col-lg-4 d-none d-lg-block">
+                    <img class="img-plainpied" src="https://via.placeholder.com/250x500" alt="image plain pieds">
+                </div>
+                <!-- Fin image plain pieds-->
+                <div class="col-lg-4 description-list">
+                    <ul class="list-unstyled">
+                        <li class="media my-lg-5 mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">Développeuse Web (en devenir !)</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/tools-and-utensils.svg" alt="logo web">
+                        </li>
+                        <li class="media mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">JavaScript</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/javascript.svg" alt="javascript logo">
+                        </li>
+                        <li class="media mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">React.js</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/react.svg" alt="react logo">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-button">
+            <a class="btn" href="page-perso/persoysatis.html" role="button">Plus d'infos</a>
+        </div>
+
+        <!-- Section Eliott-->
+        <h2>Eliott </h2>
+        <div class="container">
+            <div class="row m-2">
+                <!--Image ronde visible uniquement de format XS-à MD -->
+                <div class="col d-lg-none d-block">
+                    <img class="rounded-circle img-perso-ronde img-plainpied" src="header-accueil/elliot.png" alt="image rondes">
+                </div>
+                <div class="col-lg-4 description-list">
+                    <ul class="list-unstyled">
+                        <li class="media my-5">
+                            <img class="rounded-circle logo-presentation" src="icon/github-logo.svg" alt="Github logo">
+                            <div class="media-body">
+                                <h5 class="">Lien Github</h5>
+                            </div>
+                        </li>
+                        <li class="media mb-5">
+                            <img class="rounded-circle logo-presentation" src="icon/linkedin.svg" alt="linkedin logo">
+                            <div class="media-body">
+                                <h5 class="">Lien LinkedIn</h5>
+                            </div>
+                        </li>
+                        <li class="media mb-5">
+                            <img class="rounded-circle logo-presentation" src="icon/closed-envelope-circle.svg" alt="email logo">
+                            <div class="media-body">
+                                <h5 class="">place.ysatis@gmail.com</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--Image en plain pieds-->
+                <div class="col-lg-4 d-none d-lg-block">
+                    <img class="img-plainpied" src="https://via.placeholder.com/250x500" alt="image plain pieds">
+                </div>
+                <!-- Fin image plain pieds-->
+                <div class="col-lg-4 description-list">
+                    <ul class="list-unstyled">
+                        <li class="media my-lg-5 mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">Développeuse Web (en devenir !)</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/tools-and-utensils.svg" alt="logo web">
+                        </li>
+                        <li class="media mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">JavaScript</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/javascript.svg" alt="javascript logo">
+                        </li>
+                        <li class="media mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">React.js</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/react.svg" alt="react logo">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-button">
+            <a class="btn" href="page-perso/persoeliott.html" role="button">Plus d'infos</a>
+        </div>
+
+        <!-- Section Anaële-->
+        <h2>Anaële </h2>
+        <div class="container">
+            <div class="row m-2">
+                <!--Image ronde visible uniquement de format XS-à MD -->
+                <div class="col d-lg-none d-block">
+                    <img class="rounded-circle img-perso-ronde img-plainpied" src="header-accueil/anaelle.png" alt="image rondes">
+                </div>
+                <div class="col-lg-4 description-list">
+                    <ul class="list-unstyled">
+                        <li class="media my-5">
+                            <img class="rounded-circle logo-presentation" src="icon/github-logo.svg" alt="Github logo">
+                            <div class="media-body">
+                                <h5 class="">Lien Github</h5>
+                            </div>
+                        </li>
+                        <li class="media mb-5">
+                            <img class="rounded-circle logo-presentation" src="icon/linkedin.svg" alt="linkedin logo">
+                            <div class="media-body">
+                                <h5 class="">Lien LinkedIn</h5>
+                            </div>
+                        </li>
+                        <li class="media mb-5">
+                            <img class="rounded-circle logo-presentation" src="icon/closed-envelope-circle.svg" alt="email logo">
+                            <div class="media-body">
+                                <h5 class="">place.ysatis@gmail.com</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--Image en plain pieds-->
+                <div class="col-lg-4 d-none d-lg-block">
+                    <img class="img-plainpied" src="https://via.placeholder.com/250x500" alt="image plain pieds">
+                </div>
+                <!-- Fin image plain pieds-->
+                <div class="col-lg-4 description-list">
+                    <ul class="list-unstyled">
+                        <li class="media my-lg-5 mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">Développeuse Web (en devenir !)</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/tools-and-utensils.svg" alt="logo web">
+                        </li>
+                        <li class="media mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">JavaScript</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/javascript.svg" alt="javascript logo">
+                        </li>
+                        <li class="media mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">React.js</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/react.svg" alt="react logo">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-button">
+            <a class="btn" href="page-perso/persoanaele.html" role="button">Plus d'infos</a>
+        </div>
+
+        <!-- Section Kevin-->
+        <h2>Kevin </h2>
+        <div class="container">
+            <div class="row m-2">
+                <!--Image ronde visible uniquement de format XS-à MD -->
+                <div class="col d-lg-none d-block">
+                    <img class="rounded-circle img-perso-ronde img-plainpied" src="header-accueil/kevin.png" alt="image rondes">
+                </div>
+                <div class="col-lg-4 description-list">
+                    <ul class="list-unstyled">
+                        <li class="media my-5">
+                            <img class="rounded-circle logo-presentation" src="icon/github-logo.svg" alt="Github logo">
+                            <div class="media-body">
+                                <h5 class="">Lien Github</h5>
+                            </div>
+                        </li>
+                        <li class="media mb-5">
+                            <img class="rounded-circle logo-presentation" src="icon/linkedin.svg" alt="linkedin logo">
+                            <div class="media-body">
+                                <h5 class="">Lien LinkedIn</h5>
+                            </div>
+                        </li>
+                        <li class="media mb-5">
+                            <img class="rounded-circle logo-presentation" src="icon/closed-envelope-circle.svg" alt="email logo">
+                            <div class="media-body">
+                                <h5 class="">place.ysatis@gmail.com</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--Image en plain pieds-->
+                <div class="col-lg-4 d-none d-lg-block">
+                    <img class="img-plainpied" src="https://via.placeholder.com/250x500" alt="image plain pieds">
+                </div>
+                <!-- Fin image plain pieds-->
+                <div class="col-lg-4 description-list">
+                    <ul class="list-unstyled">
+                        <li class="media my-lg-5 mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">Développeuse Web (en devenir !)</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/tools-and-utensils.svg" alt="logo web">
+                        </li>
+                        <li class="media mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">JavaScript</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/javascript.svg" alt="javascript logo">
+                        </li>
+                        <li class="media mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">React.js</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/react.svg" alt="react logo">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-button">
+            <a class="btn" href="page-perso/persokevin.html" role="button">Plus d'infos</a>
+        </div>
+
+        <!-- Section Morgan-->
+        <h2>Morgan </h2>
+        <div class="container">
+            <div class="row m-2">
+                <!--Image ronde visible uniquement de format XS-à MD -->
+                <div class="col d-lg-none d-block">
+                    <img class="rounded-circle img-perso-ronde img-plainpied" src="header-accueil/morgan.png" alt="image rondes">
+                </div>
+                <div class="col-lg-4 description-list">
+                    <ul class="list-unstyled">
+                        <li class="media my-5">
+                            <img class="rounded-circle logo-presentation" src="icon/github-logo.svg" alt="Github logo">
+                            <div class="media-body">
+                                <h5 class="">Lien Github</h5>
+                            </div>
+                        </li>
+                        <li class="media mb-5">
+                            <img class="rounded-circle logo-presentation" src="icon/linkedin.svg" alt="linkedin logo">
+                            <div class="media-body">
+                                <h5 class="">Lien LinkedIn</h5>
+                            </div>
+                        </li>
+                        <li class="media mb-5">
+                            <img class="rounded-circle logo-presentation" src="icon/closed-envelope-circle.svg" alt="email logo">
+                            <div class="media-body">
+                                <h5 class="">place.ysatis@gmail.com</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--Image en plain pieds-->
+                <div class="col-lg-4 d-none d-lg-block">
+                    <img class="img-plainpied" src="https://via.placeholder.com/250x500" alt="image plain pieds">
+                </div>
+                <!-- Fin image plain pieds-->
+                <div class="col-lg-4 description-list">
+                    <ul class="list-unstyled">
+                        <li class="media my-lg-5 mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">Développeuse Web (en devenir !)</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/tools-and-utensils.svg" alt="logo web">
+                        </li>
+                        <li class="media mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">JavaScript</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/javascript.svg" alt="javascript logo">
+                        </li>
+                        <li class="media mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">React.js</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/react.svg" alt="react logo">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-button">
+            <a class="btn" href="page-perso/persomorgan.html" role="button">Plus d'infos</a>
+        </div>
+
+        <!-- Section Florent-->
+        <h2>Eliott </h2>
+        <div class="container">
+            <div class="row m-2">
+                <!--Image ronde visible uniquement de format XS-à MD -->
+                <div class="col d-lg-none d-block">
+                    <img class="rounded-circle img-perso-ronde img-plainpied" src="header-accueil/florent.png" alt="image rondes">
+                </div>
+                <div class="col-lg-4 description-list">
+                    <ul class="list-unstyled">
+                        <li class="media my-5">
+                            <img class="rounded-circle logo-presentation" src="icon/github-logo.svg" alt="Github logo">
+                            <div class="media-body">
+                                <h5 class="">Lien Github</h5>
+                            </div>
+                        </li>
+                        <li class="media mb-5">
+                            <img class="rounded-circle logo-presentation" src="icon/linkedin.svg" alt="linkedin logo">
+                            <div class="media-body">
+                                <h5 class="">Lien LinkedIn</h5>
+                            </div>
+                        </li>
+                        <li class="media mb-5">
+                            <img class="rounded-circle logo-presentation" src="icon/closed-envelope-circle.svg" alt="email logo">
+                            <div class="media-body">
+                                <h5 class="">place.ysatis@gmail.com</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--Image en plain pieds-->
+                <div class="col-lg-4 d-none d-lg-block">
+                    <img class="img-plainpied" src="https://via.placeholder.com/250x500" alt="image plain pieds">
+                </div>
+                <!-- Fin image plain pieds-->
+                <div class="col-lg-4 description-list">
+                    <ul class="list-unstyled">
+                        <li class="media my-lg-5 mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">Développeuse Web (en devenir !)</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/tools-and-utensils.svg" alt="logo web">
+                        </li>
+                        <li class="media mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">JavaScript</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/javascript.svg" alt="javascript logo">
+                        </li>
+                        <li class="media mb-5 flex-lg-row flex-row-reverse">
+                            <div class="media-body">
+                                <h5 class="">React.js</h5>
+                            </div>
+                            <img class="rounded-circle logo-presentation" src="icon/react.svg" alt="react logo">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-button">
+            <a class="btn" href="page-perso/persoflorent.html" role="button">Plus d'infos</a>
+        </div>
+    </section>
+
+
+    <!-- Footer-->
+    <footer>
+
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="header-accueil/script.js"></script>
+</body>
+
+</html>

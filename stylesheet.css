@@ -1,0 +1,361 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    background-color: #545252;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: auto;
+}
+
+h2 {
+    color: #f4a443;
+    margin : 10% 0% 5% 10%;
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Header */
+
+header
+{
+  background-color: whitesmoke;
+  position: relative; /* on positionne le conteneur */
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 17px;
+  min-height: 100%;
+}
+
+/* header-anaelle */
+
+.anaelleHeader{
+  opacity: 0.5;
+  height:11vw;
+  margin-top: 3vw;
+  margin-bottom: -8vw;
+  transition: transform 1s;
+}
+
+.anaelleHeader:hover{
+  opacity: 1;
+  transform: scale(1.2) rotateY(190deg);
+}
+
+/* header-Elliot */
+
+.elliotHeader{
+  opacity: 0.5;
+  height: 11vw;
+  margin-right: 30vw;
+  margin-top: 2vw;
+  transition: transform 1s;
+}
+
+.elliotHeader:hover{
+  opacity: 1;
+  transform: scale(1.2) rotateY(190deg);
+}
+
+/* header-kevin */
+
+.kevinHeader{
+  opacity: 0.5;
+  height:11vw;
+  margin-top: 3vw;
+  margin-bottom: -8vw;
+  transition: transform 1s;
+}
+
+.kevinHeader:hover{
+  opacity: 1;
+  transform: scale(1.2) rotateY(190deg);
+}
+
+
+/* header-florent */
+
+.florentHeader{
+  opacity: 0.5;
+  height: 11vw;
+  transition: transform 1s;
+}
+
+.florentHeader:hover{
+  opacity: 1;
+  transform: scale(1.2) rotateY(190deg);
+}
+
+/* header-Ysatis */
+
+.ysatisHeader{
+  opacity: 0.5;
+  height: 11vw;
+  margin-right: 55vw;
+  transition: transform 1s;
+}
+
+.ysatisHeader:hover{
+  opacity: 1;
+  transform: scale(1.2) rotateY(190deg);
+}
+
+/* header-morgan */
+
+.morganHeader{
+  opacity: 0.5;
+  height: 11vw;
+  margin-top: 2vw;
+  transition: transform 1s;
+}
+
+.morganHeader:hover{
+  opacity: 1;
+  transform: scale(1.2) rotateY(190deg);
+}
+
+/* header-logo */
+
+.logoHeader{
+  opacity: 0.5;
+  height: 15vw;
+  margin-left: 3vw;
+  margin-top: -13vw;
+  /*position: absolute;
+  left:44vw;
+  top: -20vw;*/
+  transition: transform 1s;
+}
+
+.logoHeader:hover{
+  opacity: 1;
+  transform: scale(1.2) rotateY(190deg);
+}
+
+/*Partie présentation*/
+
+.presentation {
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+}
+
+/* presentation personne */
+
+.perso-section .row .img-plainpied {
+    margin: 0 auto;
+    display: block;
+}
+
+.img-perso-ronde {
+    width: 220px;
+}
+.perso-section .logo-presentation {
+    width: 60px;
+}
+
+.info-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.perso-section .btn {
+    background-color: #f4a443;
+    color: #FFFFFF;
+    margin : 5% 20% 5% 0%; 
+    
+}
+
+.description-list {
+    margin: auto;
+}
+
+.description-list h5 {
+    text-align: center;
+}
+
+.description-list, .media {
+    align-items: center;
+}
+
+/* partie WIP page d'accueil*/
+
+.WIP-container {
+    margin-top: 10%;
+}
+
+.carre {
+    
+    height: 14.4vw;
+    width: 14.4vw;
+    background-color: blue;
+     border: 1px solid black;
+    transform: rotate(45deg);
+}
+
+.carresm{
+    
+    height: 20vw;
+    width: 20vw;
+}
+
+.carrefin {
+    
+    height: 14.4vw;
+    width: 6vw;
+    background-color: blue;
+     border: 1px solid black; 
+    transform: rotate(45deg);
+}
+
+.margegauche {
+    margin-left: 6vw;
+}
+
+.margegauchefin {
+    margin-left: 4.72vw;
+}
+
+.margedroite {
+    margin-left: -6.8vw;
+    margin-bottom: -5.68vw; 
+}
+
+.margegauche2 {
+    margin-left: 6.6vw;
+}
+
+.margegauche3 {
+    margin-left: 13.8vw;
+    margin-top: -5.4vw;
+}
+
+.carre2 {
+    transform: rotate(45deg);
+    height: 7.2vw;
+    width: 7.2vw;
+    background-color: red;
+    border: 1px solid black;
+}
+  
+.image1, .image5 {
+    background-image: url(img1.jpg);
+    width: 7.2vw;
+    height: 7.2vw;
+    background-size: 135%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+.image2, .image3 {
+    background-image: url(img1.jpg);
+    width: 14.4vw;
+    height: 14.4vw;
+    background-size: 135%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image4 {
+    
+    background-image: url(img1.jpg);
+    width: 7.2vw;
+    height: 14.4vw;
+    background-size: 160%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image6 {
+    
+    background-image: url(img1.jpg);
+    width: 14.4vw;
+    height: 14.4vw;
+    background-size: 160%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagesm1 {
+    
+    background-image: url(img1.jpg);
+    width: 25vw;
+    height: 25vw;
+    background-size: 160%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.imagesm2 {
+    
+    background-image: url(img1.jpg);
+    width: 25vw;
+    height: 25vw;
+    background-size: 160%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.imagesm3 {
+    
+    background-image: url(img1.jpg);
+    width: 25vw;
+    height: 25vw;
+    background-size: 160%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.imagesm4 {
+    
+    background-image: url(img1.jpg);
+    width: 25vw;
+    height: 25vw;
+    background-size: 160%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+
+@media screen and (min-width: 575px){  
+.workinprogress {   
+    margin-left: 25%;
+}   
+}
+
+@media screen and (max-width: 574px){  
+.workinprogress {   
+    margin-left: ;
+}   
+}
+
+/* MODAL */
+
+#enhaut {
+	position:absolute;
+	top:3px;
+	right:3px;
+	padding: 2px;
+	font-size:1.7rem;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px 5px 5px 5px;
+}
+
+
+  .wipxs {
+    display:none;
+  }
+
