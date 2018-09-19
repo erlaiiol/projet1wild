@@ -10,7 +10,53 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-default fixed-top navbar-dark bg-dark">
+       <div class="container-fluid" style="padding:0px;">
+    	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+     	  	 <a class="navbar-brand" href="#">Portfolio</a>
+     		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+   			 <span class="navbar-toggler-icon"></span>
+     		 </button>
+     		 <div class="collapse navbar-collapse" id="navbarNavDropdown">
+   			 <ul class="navbar-nav ml-auto mr-5">
+     				 <li class="nav-item dropdown">
+                    	<a class="nav-link dropdown-toggle" href="#" id="groupe1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        	A-D
+                    	</a>
+                    	<div class="dropdown-menu" aria-labelledby="groupe1">
+                        	<a class="dropdown-item" href="page1.html">Groupe A-B</a>
+                        	<a class="dropdown-item" href="page2.html">Groupe B-C</a>
+                        	<a class="dropdown-item" href="page3.html">Groupe C-D</a>
+                    	</div>
+                	</li>
+
+     				 <li class="nav-item dropdown">
+                    	<a class="nav-link dropdown-toggle" href="#" id="groupe2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        	E-M
+                    	</a>
+                    	<div class="dropdown-menu" aria-labelledby="groupe2">
+                        	<a class="dropdown-item" href="page4.html">Groupe E-G</a>
+                        	<a class="dropdown-item" href="page5.html">Groupe G-K</a>
+                        	<a class="dropdown-item" href="page6.html">Groupe K-M</a>
+                    	</div>
+                	</li>
+
+                	<li class="nav-item dropdown">
+                    	<a class="nav-link dropdown-toggle" href="#" id="groupe3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        	M-Y
+                    	</a>
+                    	<div class="dropdown-menu" aria-labelledby="groupe3">
+                        	<a class="dropdown-item" href="page7.html">Groupe M-N</a>
+                        	<a class="dropdown-item" href="page8.html">Groupe P-R</a>
+                        	<a class="dropdown-item" href="page9.html">Groupe S-Y</a>
+                    	</div>
+                	</li>
+   			 </ul>
+     		 </div>
+   	 </nav>
+    </div>
+
+       
+        <nav class="navbar navbar-default navbar-dark bg-dark">
             
 			<button class="navbar-toggler" type="button" data-toggle="dropdown" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -56,76 +102,164 @@
                     <div class="row col-12 mt-5">
                         <p class="descriptionPerso">
                         
-                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                        Bienvenue sur ma page personnelle ! <br><br>
+                        Je m'appel Kevin, 27 ans, étudiant en développement web.
+                        Depuis tout jeune je suis passionné d'informatique, au début plutôt hardware, et maintenant je me tourne vers le software et me forme afin d'en faire mon métier. <br><br>
+                        Préférant le côté back plutôt que le front, et comptant potentiellement devenir fullstack dans le futur, je me suis donc spécialisé en Java, langage qui me correspond le plus et avec lequel j'ai le plus d'affinité.
                         </p>
                     </div>
                     
+                    
 
                     <div class="row d-flex justify-content-center justify-content-md-around m-1 projectcard">
-                        <div class=" card mb-5" style="width: 14rem;">
-                            <div class="card-header">
+                        <div class="card projectcard mb-5" style="width: 14rem;">
+                            <div class="card-header back-title">
                                 Wild Folio
                             </div>
-                            <div class="card-img-top" style="background-image:url(http://image.noelshack.com/fichiers/2018/37/6/1537028094-capture-d-ecran-de-2018-09-15-18-14-18.png)"></div>
+                            <a data-toggle="modal" href="#mymodal1"><div class="card-img-top imgmodal" style="background-image:url(http://image.noelshack.com/fichiers/2018/37/6/1537028094-capture-d-ecran-de-2018-09-15-18-14-18.png)"></div></a>
                             <div class="card-body">
-                                <p class="card-text">Création d'un portfolio en équipe de 6</p>
+                                <p class="card-text">Création d'un portfolio en équipe de 6.</p>
                                 
                             </div>
                         </div>
-                        <div class=" card mb-5" style="width: 14rem;">
-                            <div class="card-header">
+                        <div class="card projectcard mb-5" style="width: 14rem;">
+                            <div class="card-header back-title">
                                 Nom du projet
                             </div>
-                            <img class="card-img-top" src="https://via.placeholder.com/100x80" alt="Card image cap">
+                            <a data-toggle="modal" href="#mymodal2"><img class="card-img-top imgmodal" src="https://via.placeholder.com/100x80" alt="Card image cap"></a>
+                            
                             <div class="card-body">
                                 <p class="card-text">Petite description du projet à placer ici.</p>
                                 
                             </div>
                         </div>
-                        <div class=" card mb-5" style="width: 14rem;">
-                            <div class="card-header">
+                        <div class="card projectcard mb-5" style="width: 14rem;">
+                            <div class="card-header back-title">
                                 Nom du projet
                             </div>
-                            <img class="card-img-top" src="https://via.placeholder.com/100x80" alt="Card image cap">
+                            <a data-toggle="modal" href="#mymodal3"><img class="card-img-top imgmodal" src="https://via.placeholder.com/100x80" alt="Card image cap"></a>
                             <div class="card-body">
                                 <p class="card-text">Petite description du projet à placer ici.</p>
                                 
                             </div>
                         </div>
-                        
-                        
-                        
                     </div>
                 </div>
+                
+                <!------------- Modal 1 ------------->
+        <div class="modal fase" id="mymodal1" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header back-title">
+                <h5 class="modal-title">Wild Folio</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-img">
+                <img class="w-100 h-50" src="http://image.noelshack.com/fichiers/2018/37/6/1537028094-capture-d-ecran-de-2018-09-15-18-14-18.png" alt="Wild Folio">
+              </div>
+              <div class="modal-body">  
+                <p class="modal-text">Création d'un portfolio en premier projet, réalisé en 3 semaines à la Wild Code School de Lyon, en équipe de 6 personnes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+	                <!------------- Modal 2 ------------->
+	   <div class="modal fase" id="mymodal2" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header back-title">
+                <h5 class="modal-title">Nom du projet</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-img">
+                <img class="w-100 h-50" src="https://via.placeholder.com/800x600" alt="placeholder">
+              </div>
+              <div class="modal-body">  
+                <p class="modal-text">Petite description du projet à placer ici.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+	        <!------------- Modal 3 ------------->
+        <div class="modal fase" id="mymodal3" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header back-title">
+                <h5 class="modal-title">Nom du projet</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-img">
+                <img class="w-100 h-50" src="https://via.placeholder.com/800x600" alt="placeholder">
+              </div>
+              <div class="modal-body">  
+                <p class="modal-text">Petite description du projet à placer ici.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+               
+                
                 <div class="container light col-md-6" >
+                   <div class="row d-flex justify-content-around socialnetworks">
+                       <div class="card socialnetwork">
+                        <a class="sociallogo" href="#">
+                            <img border="0" alt="Github" src="../icon/github-logo.svg" width="65" height="65">
+                            <p style="text-align: center; margin-top: 10px">Github</p>
+                        </a>
+                        
+                        </div>
+                        <div class="card socialnetwork">
+                        <a class="sociallogo" href="#">
+                            <img border="0" alt="LinkedIn" src="../icon/linkedin.svg" width="65" height="65">
+                            <p style="text-align: center; margin-top: 10px">LinkedIn</p>
+                        </a>
+                        
+                        </div>
+                        <div class="card socialnetwork">
+                        <a class="sociallogo" href="#">
+                            <img border="0" alt="Mail Contact" src="../icon/closed-envelope-circle.svg" width="65" height="65">
+                            <p style="text-align: center; margin-top: 10px">Contact</p>
+                        </a>
+                        
+                        </div>
+                    </div>
                     <div class="row perso-section">
                         
                             <div class="container">
                                 <div class="row m-2">
                                     <!--Image ronde visible uniquement de format XS-à MD -->
                                     <div class="col d-lg-none d-block">
-                                        <img class="rounded-circle img-perso-ronde img-plainpied" src="../header-accueil/ysatis.png" alt="image rondes">
+                                        <img class="rounded-circle img-perso-ronde img-plainpied" src="images/test2.png" alt="image rondes">
                                     </div>
                                     <div class="col-lg-4 description-list">
                                         <ul class="list-unstyled">
                                             <li class="media my-5">
-                                                <img class="rounded-circle logo-presentation" src="../icon/github-logo.svg" alt="Github logo">
+                                                <img class="rounded-circle logo-presentation" src="./icon/brainstorm.svg" alt="Brainstorm logo">
                                                 <div class="media-body">
-                                                    <a class="sociallink" href="https://github.com/MaidenQuinn">MaidenQuinn</a>
+                                                    <h5>Créatif</h5>
                                                 </div>
                                             </li>
                                             
                                             <li class="media mb-5">
-                                                <img class="rounded-circle logo-presentation" src="../icon/linkedin.svg" alt="linkedin logo">
+                                                <img class="rounded-circle logo-presentation" src="./icon/reading.svg" alt="Learning logo">
                                                 <div class="media-body">
-                                                    <a class="sociallink" href="https://www.linkedin.com/in/kevin-radlowski-83186a170/">Kevin R.</a>
+                                                    <h5>Apprentissage</h5>
                                                 </div>
                                             </li>
                                             
                                             <li class="media mb-5">
-                                                <img class="rounded-circle logo-presentation" src="../icon/closed-envelope-circle.svg" alt="email logo">
+                                                <img class="rounded-circle logo-presentation" src="./icon/team.svg" alt="Team logo">
                                                 <div class="media-body">
-                                                    <a class="sociallink" href="kevin.radlowski@gmail.com">kevin.radlowski@gmail.com</a>
+                                                    <h5>Travail en équipe</h5>
                                                 </div>
                                             </li>
                                         </ul>
@@ -161,8 +295,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
-                                <br><br><br><br><br><br><br><br><br>
+                                </div>    
                             </div>
                     </div>
                 </div>
