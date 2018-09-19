@@ -16,53 +16,91 @@
 
 <body>
 
-    <header class="container-fluid">
-        <div class="container-fluid">
+      <div class="container-fluid" style="padding:0px;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto mr-5">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="groupe1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              A-D
+            </a>
+            <div class="dropdown-menu" aria-labelledby="groupe1">
+              <a class="dropdown-item" href="page1.html">Groupe A-B</a>
+              <a class="dropdown-item" href="page2.html">Groupe B-C</a>
+              <a class="dropdown-item" href="page3.html">Groupe C-D</a>
+            </div>
+          </li>
 
-            <div class="headerMenus">
-                <!-- line 1 grid-menus-anaelle-kevin-->
-                <div class="row justify-content-center">
-                    <div onmouseover='playpause()' onmouseout='playpause()' class="anaelleMenus"><a href="page-perso/persoanaele.html"><audio
-                                id="v1" autobuffer="true">
-                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="anaelleHeader"
-                                src="header-accueil/anaelle1.png" alt=""></a></div>
-                    <div onmouseover='playpause()' onmouseout='playpause()' class="kevinMenus"><a href="page-perso/persokevin.html"><audio
-                                id="v1" autobuffer="true">
-                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="kevinHeader"
-                                src="header-accueil/kevin.png" alt=""></a></div>
-                </div>
-                <!-- line 2 grid-menus-elliot-morgan-->
-                <div class="row justify-content-center">
-                    <div onmouseover='playpause()' onmouseout='playpause()' class="elliotMenus"><a href="page-perso/persoeliott.html"><audio
-                                id="v1" autobuffer="true">
-                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="elliotHeader"
-                                src="header-accueil/elliot.png" alt=""></a></div>
-                    <div onmouseover='playpause()' onmouseout='playpause()' class="morganMenus"><a href="page-perso/persomorgan.html"><audio
-                                id="v1" autobuffer="true">
-                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="morganHeader"
-                                src="header-accueil/morgan.png" alt=""></a></div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="groupe2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              E-M
+            </a>
+            <div class="dropdown-menu" aria-labelledby="groupe2">
+              <a class="dropdown-item" href="page4.html">Groupe E-G</a>
+              <a class="dropdown-item" href="page5.html">Groupe G-K</a>
+              <a class="dropdown-item" href="page6.html">Groupe K-M</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="groupe3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              M-Y
+            </a>
+            <div class="dropdown-menu" aria-labelledby="groupe3">
+              <a class="dropdown-item" href="page7.html">Groupe M-N</a>
+              <a class="dropdown-item" href="page8.html">Groupe P-R</a>
+              <a class="dropdown-item" href="page9.html">Groupe S-Y</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <header class="container-fluid">
+    <div class="container-fluid">
+
+      <div class="headerMenus">
+        <!-- line 1 grid-menus-anaelle-kevin-->
+        <div class="row justify-content-center">
+          <div class="anaelleMenus"><a href="page-perso/persoanaele.html"><img class="anaelleHeader" src="header-accueil/anaelle1.png" alt=""></a></div>
+          <div class="kevinMenus"><a href="page-perso/persokevin.html"><img class="kevinHeader" src="header-accueil/kevin.png" alt=""></a></div>
+        </div>
+        <!-- line 2 grid-menus-elliot-morgan-->
+        <div class="row justify-content-center">
+          <div class="elliotMenus"><a href="page-perso/persoeliott.html"><audio
+            id="v1" autobuffer="true">
+            <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="elliotHeader"
+              src="header-accueil/elliot.png" alt=""></a></div>
+              <div class="morganMenus"><a href="page-perso/persomorgan.html"><audio
+                id="v1" autobuffer="true">
+                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="morganHeader"
+                  src="header-accueil/morgan.png" alt=""></a></div>
                 </div>
                 <!-- line 3 grid-menus-logo-ysatis-florent -->
                 <div class="row justify-content-center">
-                    <div onmouseover='playpause()' onmouseout='playpause()' class="ysatisMenus"><a href="page-perso/persoysatis.html"><audio
-                                id="v1" autobuffer="true">
-                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="ysatisHeader"
-                                src="header-accueil/ysatis.png" alt=""></a></div>
-                    <div onmouseover='playpause()' onmouseout='playpause()' class="florentMenus"><a href="page-perso/persoflorent.html"><audio
-                                id="v1" autobuffer="true">
-                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="florentHeader"
-                                src="header-accueil/florent.png" alt=""></a></div>
-                </div>
-                <!-- line 4 grid-menus-logo -->
-                <div class="row justify-content-center">
-                    <div class="logoMenus"><a href="https://wildcodeschool.fr/lyon"><img class="logoHeader" src="header-accueil/wild.png"
-                                alt=""></a></div>
-                </div>
-            </div><!-- end div menus -->
-        </div><!-- end div container fluid -->
-        </div>
-    </header>
-
+                  <div  class="ysatisMenus"><a href="page-perso/persoysatis.html"><audio
+                    id="v1" autobuffer="true">
+                    <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="ysatisHeader"
+                      src="header-accueil/ysatis.png" alt=""></a></div>
+                      <div class="florentMenus"><a href="page-perso/persoflorent.html"><audio
+                        id="v1" autobuffer="true">
+                        <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="florentHeader"
+                          src="header-accueil/florent.png" alt=""></a></div>
+                        </div>
+                        <!-- line 4 grid-menus-logo -->
+                        <div class="row justify-content-center">
+                          <div class="logoMenus"><a href="https://wildcodeschool.fr/lyon"><img class="logoHeader" src="header-accueil/wild.png"
+                            alt=""></a></div>
+                          </div>
+                        </div><!-- end div menus -->
+                      </div><!-- end div container fluid -->
+                    </div>
+                  </header>
 
     <!-- 1ère partie avec la présentation (titre + paragraphe)-->
 

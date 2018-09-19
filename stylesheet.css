@@ -1,8 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 * {
     box-sizing: border-box;
+}
+*:focus {
+outline: none;
 }
 
 body {
@@ -49,7 +51,7 @@ header
 
 .anaelleHeader:hover{
   opacity: 1;
-  transform: scale(1.2) rotateY(190deg);
+  transform: scale(1.2) translate(-30px);
 }
 
 /* header-Elliot */
@@ -64,7 +66,7 @@ header
 
 .elliotHeader:hover{
   opacity: 1;
-  transform: scale(1.2) rotateY(190deg);
+  transform: scale(1.2) translate(-30px);
 }
 
 /* header-kevin */
@@ -79,7 +81,7 @@ header
 
 .kevinHeader:hover{
   opacity: 1;
-  transform: scale(1.2) rotateY(190deg);
+  transform: scale(1.2) translate(30px);
 }
 
 
@@ -93,7 +95,7 @@ header
 
 .florentHeader:hover{
   opacity: 1;
-  transform: scale(1.2) rotateY(190deg);
+  transform: scale(1.2) translate(30px);
 }
 
 /* header-Ysatis */
@@ -107,7 +109,7 @@ header
 
 .ysatisHeader:hover{
   opacity: 1;
-  transform: scale(1.2) rotateY(190deg);
+  transform: scale(1.2) translate(-30px);
 }
 
 /* header-morgan */
@@ -121,7 +123,7 @@ header
 
 .morganHeader:hover{
   opacity: 1;
-  transform: scale(1.2) rotateY(190deg);
+  transform: scale(1.2) translate(30px);
 }
 
 /* header-logo */
@@ -139,7 +141,7 @@ header
 
 .logoHeader:hover{
   opacity: 1;
-  transform: scale(1.2) rotateY(190deg);
+  transform: scale(1.1) rotateY(190deg);
 }
 
 /*Partie présentation*/
@@ -173,8 +175,8 @@ header
 .perso-section .btn {
     background-color: #f4a443;
     color: #FFFFFF;
-    margin : 5% 20% 5% 0%; 
-    
+    margin : 5% 20% 5% 0%;
+
 }
 
 .description-list {
@@ -196,7 +198,7 @@ header
 }
 
 .carre {
-    
+
     height: 14.4vw;
     width: 14.4vw;
     background-color: blue;
@@ -205,17 +207,17 @@ header
 }
 
 .carresm{
-    
+
     height: 20vw;
     width: 20vw;
 }
 
 .carrefin {
-    
+
     height: 14.4vw;
     width: 6vw;
     background-color: blue;
-     border: 1px solid black; 
+     border: 1px solid black;
     transform: rotate(45deg);
 }
 
@@ -229,7 +231,7 @@ header
 
 .margedroite {
     margin-left: -6.8vw;
-    margin-bottom: -5.68vw; 
+    margin-bottom: -5.68vw;
 }
 
 .margegauche2 {
@@ -248,7 +250,7 @@ header
     background-color: red;
     border: 1px solid black;
 }
-  
+
 .image1, .image5 {
     background-image: url(img1.jpg);
     width: 7.2vw;
@@ -268,7 +270,7 @@ header
 }
 
 .image4 {
-    
+
     background-image: url(img1.jpg);
     width: 7.2vw;
     height: 14.4vw;
@@ -278,7 +280,7 @@ header
 }
 
 .image6 {
-    
+
     background-image: url(img1.jpg);
     width: 14.4vw;
     height: 14.4vw;
@@ -288,58 +290,58 @@ header
 }
 
 .imagesm1 {
-    
+
     background-image: url(img1.jpg);
     width: 25vw;
     height: 25vw;
     background-size: 160%;
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 .imagesm2 {
-    
+
     background-image: url(img1.jpg);
     width: 25vw;
     height: 25vw;
     background-size: 160%;
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 .imagesm3 {
-    
+
     background-image: url(img1.jpg);
     width: 25vw;
     height: 25vw;
     background-size: 160%;
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 .imagesm4 {
-    
+
     background-image: url(img1.jpg);
     width: 25vw;
     height: 25vw;
     background-size: 160%;
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 
 
 
-@media screen and (min-width: 575px){  
-.workinprogress {   
+@media screen and (min-width: 575px){
+.workinprogress {
     margin-left: 25%;
-}   
+}
 }
 
-@media screen and (max-width: 574px){  
-.workinprogress {   
+@media screen and (max-width: 574px){
+.workinprogress {
     margin-left: ;
-}   
+}
 }
 
 /* MODAL */
@@ -358,4 +360,5 @@ header
   .wipxs {
     display:none;
   }
+
 
