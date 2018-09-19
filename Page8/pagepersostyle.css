@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@font-face {
+   font-family: 'Open Sans', sans-serif;
+}
+
+/* Container principaux de la page */
+
+body {
+    background-color:#E5E5E5;
+}
+.container {
+    float:left;
+}
+.dark {
+    background-color:#545252;
+    color: white;
+}
+.light {
+    background-color:#E5E5E5;
+}
+
+/* Partie gauche - nom + pseudo + présentation */
+
+.personame {
+    margin-top: 65px;
+}
+.Pseudo {
+    color:#F4A443;
+}
+.pseudo {
+    margin-bottom: 15px;
+}
+
+/* Barre de réseaux sociaux */
+
+.socialnetwork {
+    background-color: #E5E5E5;
+    border:none;
+    margin-top: 8%;
+}
+
+.socialnetwork a {
+    color: black;
+}
+.socialnetwork a:hover {
+    color: #F4A443;
+}
+
+.moreinfo {
+   background-color: #E5E5E5;
+    border: 1px solid orange; 
+}
+
+.moreinfo a {
+    color: black;
+}
+.moreinfo a:hover {
+    color: #F4A443;
+}
+/* Cards présentations des projets */
+
+.card {
+    margin-top: 7%;
+    border-color: darkgrey;
+    color: black;
+}
+
+.card-header {
+    background-color: #F4A443;
+    line-height: normal;
+}
+.card-body {
+    background-color: #E5E5E5;
+    font-size: 14px;  
+    padding: 5px;
+}
+.card-img-top {
+    width:222px;
+    height:177px;
+    background-size: cover;
+}
+
+
+/* Partie NAVBAR */ 
+
+.navImg {
+    width:70px;
+}
+/* passer      couleurwild:hover    en   couleurwild:visited (css)*/
+.couleurwild{
+   color:#ffffff;
+}
+.couleurwild:hover{
+   color: black;
+}
+
+
+.dropdown-item:hover {
+    background-color: rgba(244,164,67,1.0);
+    
+}
+
+
+/* SECTION PERSO A DROITE */
+.img-plainpied {
+    margin: 0 auto;
+    max-width: 300px;
+    border-radius: 25px;
+}
+
+.img-perso-ronde {
+    width: 220px;
+    margin-top: 8%;
+}
+.perso-section {
+    margin-top: 25px;
+    }
+.perso-section .logo-presentation {
+    width: 60px;
+}
+
+.descriptionPerso {
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+.description-list {
+    margin: auto;
+}
+.description-list, .media {
+    align-items: center;
+    text-align: center;
+}
